@@ -1,0 +1,307 @@
+.preyantechnosys-obitrius-style1:after {
+    background-color: var(--prt-whitecolor);
+}
+/*step box style 4*/
+.prt-staticbox-style4 .process-num .number {
+    font-size: 130px;
+    font-family: var(--special-element-fontfamily);
+    line-height: 140px;
+    -webkit-text-stroke: 1px rgba(225, 255,255 , 0.10);
+    -webkit-text-fill-color: transparent;
+}
+.prt-staticbox-style4 .prt-stepbox-content:hover .process-num .number {
+    -webkit-text-fill-color: white;
+}
+.prt-staticbox-style4 .prt-bottom-contentbox .prt-box-title h4 {
+    margin-bottom: 18px;
+    padding-right: 50px;
+}
+.prt-staticbox-style4 .prt-bottom-contentbox {
+    margin-top: 25px;
+}
+.prt-staticbox-style4 .prt-stepbox-content {
+    border-right: 1px solid rgb(255 255 255 / 10%);
+    padding-right: 30px;
+}
+.prt-staticbox-style4 .prt-box-col-wrapper:last-child .prt-stepbox-content {
+    border-right: 0;
+}
+/**************/
+.prt-bg-img-animation{
+    overflow: hidden;
+}
+.prt-bg-img-animation .elementor-background-overlay {
+    animation: animName 100s linear infinite;
+    overflow: hidden;
+}
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}
+.prt-text-number-section h2.elementor-heading-title.elementor-size-default {
+    -webkit-text-stroke: 1px rgba(255,255,255,.20);
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+}
+/*******blogbox-stylethree*******/
+.preyantechnosys-blogbox-stylethree .prt-box-post-date {
+   color: #fff;
+}
+.preyantechnosys-blogbox-stylethree .preyantechnosys-blogbox-desc-footer a {
+    border: 2px solid rgba(255,255,255 , 0.10);
+    color: #fff !important;
+}
+.prt-box-col-wrapper:first-child .preyantechnosys-blogbox-stylethree .post-item {
+    border-top: 1px solid rgba(255,255,255 , 0.10);
+    border-bottom: 1px solid rgba(255,255,255 , 0.10);
+}
+.prt-box-col-wrapper:nth-child(4) .preyantechnosys-blogbox-stylethree .post-item,
+.prt-box-col-wrapper:nth-child(3) .preyantechnosys-blogbox-stylethree .post-item,
+.prt-box-col-wrapper:nth-child(2) .preyantechnosys-blogbox-stylethree .post-item {
+    border-bottom: 1px solid rgba(255,255,255 , 0.10);
+}
+a#totop {
+    color: #000;
+}
+
+/****marquebox-style1*****/
+.prt-footer-marque .prt-marquebox-style1 ul.marquebox-list li {
+    font-size: 80px;
+    line-height: 90px;
+    padding-left: 130px;
+    padding-right: 0;
+}
+.prt-footer-marque .prt-marquebox-style1 ul.marquebox-list li:before {
+    position: absolute;
+    content: '*';
+    left: 0;
+    top: 15px;
+    bottom: auto;
+    font-size: 80px;
+}
+.preyantechnosys-footer-default .footer .social-icons li > a {
+    color: #fff;
+    background: #000;
+}
+.footer .widget_stock_ticker {
+    padding: 12px 0;
+    background-color: var(--prt-skincolor);
+    color: #fff;
+}
+
+.footer .widget_stock_ticker .stock_ticker li span {
+    color: #fff !important;
+}
+.tm-rotating-text text {
+    fill: #fff;
+    letter-spacing: 5px;
+    transform-origin: 50% 50% 0;
+    transform: rotate(0deg);
+    -webkit-animation: spin 15s linear infinite;
+    -moz-animation: spin 15s linear infinite;
+    animation: spin 15s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+.preyantechnosys-boxes-testimonial .preyantechnosys-testimonialbox-styletwo .preyantechnosys-box-desc blockquote {
+    color: #ffffff;
+}
+.prt-icon-content .container:after {
+    border-top: 1px solid rgb(255 254 254 / 10%);
+}
+.prt-right-sidebar {
+     background-image: url(../images/sidebar-banner-imgdark.jpg) !important;
+}
+.sidebar .post-detail:after {
+    color: rgba(255, 255, 255,1);
+}
+.sidebar .widget .tagcloud a {
+    color: var(--prt-whitecolor);
+}
+.prt-contactform-03 input[type="text"],
+.prt-contactform-03 textarea, 
+.prt-contactform-01 textarea,
+.prt-contactform-01 input[type="number"],
+.prt-contactform-01 input[type="tel"], 
+.prt-contactform-01 input[type="email"],
+.prt-contactform-01 input[type="text"] {
+    background-color: var(--prt-secondarycolor);
+}
+.prt-contact-social .social-icons li > a {
+    color: var(--prt-whitecolor) !important;
+}
+.select2-container--default .select2-selection--single {
+    background-color: var(--prt-secondarycolor);
+}
+.preyantechnosys-teambox-style1 .prt-call {
+    color: var(--prt-whitecolor);
+}
+.widget .woocommerce-product-search .search-field,
+ .widget .search-form .search-field {
+    border-color: rgba(255,255,255,.10);
+}
+.prt-contact-btn input[type="submit"]:hover {
+    color: var(--prt-secondarycolor);
+}
+
+.prt-contactform-02 .comment-form-fileup {
+    overflow: hidden;
+    background-color: var(--prt-secondarycolor);
+    border-radius: 10px;
+    height: 110px;
+}
+.prt-contactform-02 .file-upload-wrapper:before {
+    content: "\f114";
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    display: inline-block;
+    font-family: 'flaticon_mining';
+    background-color: #fff;
+    color: var(--prt-skincolor);
+    z-index: 25;
+    font-size: 33px;
+    line-height: 33px;
+    padding: 16px 17px;
+    pointer-events: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.prt-contactform-02 input.file-upload-field {
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+}
+.prt-contactform-02 .file-upload-wrapper:after {
+    content: attr(data-text);
+    font-size: 20px;
+    font-family: var(--special-element-fontfamily);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: transparent;
+    padding: 20px 15px;
+    display: block;
+    width: 94%;
+    pointer-events: none;
+    z-index: 20;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px dashed var(--prt-bordercolor);
+    overflow: hidden;
+}
+.prt-contactform-02 .file-upload-wrapper {
+    position: relative;
+}
+.preyantechnosys-teambox-style1 .prt-email span.copy-the-code-shortcode {
+    color: var(--prt-whitecolor);
+}
+.prt-col-bgcolor-grey .elementor-accordion .elementor-accordion-item,
+ .prt-bgcolor-grey .elementor-accordion .elementor-accordion-item {
+    background-color: var(--prt-greycolor);
+}
+.single-tm_service .prt-service-single-content-wrapper .widget ul > li {
+    border-bottom: 1px solid rgba(255,255,255,.10);
+}
+.single-tm_service .widget span.prt-service-icon i:after {
+    background-color: rgba(255,255,255,.10);
+}
+.single-tm_service .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-title {
+    border: 2px solid rgba(255,255,255,.10) !important;
+}
+.single-tm_service blockquote {
+    color: var(--prt-whitecolor);
+}
+.single-tm_service blockquote cite,.single-tm_service blockquote small {
+    color: var(--prt-whitecolor);
+}
+span.prt-investor {
+    color: var(--prt-whitecolor);
+}
+.preyantechnosys-box-blog.preyantechnosys-blog-box-view-left-image .post-item>.preyantechnosys-box-content {
+   border: 1px solid rgba(255,255,255,.10);
+}
+.sidebar .widget ul:not(.slides):not(.cart_list):not(.funerio_contact_widget_wrapper):not(.funerio_category_list_widget):not(.prt-all-post-list) > li {
+    border-top: 1px solid rgba(255,255,255,.10);
+}
+.sidebar .post-detail:before {
+    background-color: rgba(255,255,255,.10);
+}
+.single article.post blockquote {
+    color: var(--prt-whitecolor);
+}
+.single article.post blockquote cite {
+   color: var(--prt-whitecolor);
+}
+.post.preyantechnosys-box-blog-classic .prt-social-share-wrapper .prt-social-share-title, .single-post .preyantechnosys-tags-links-title {
+    color: var(--prt-whitecolor);
+}
+.single-post .preyantechnosys-blogbox-sharebox .preyantechnosys-tags-links a {
+    color: var(--prt-whitecolor);
+}
+.single-post .prt-social-share-links ul li a {
+    color: var(--prt-whitecolor);
+}
+@media (min-width: 1200px){
+.prt-headerstyle-classic-overlay .prt-header-text-area .header-info-widget {
+    color: var(--prt-whitecolor);
+}
+}
+@media (min-width: 767px){
+.prt-dark-image-box img {
+    margin-bottom: 20px;
+}
+
+}
+@media (max-width: 767px){
+    .prt-staticbox-style4 .prt-stepbox-content {
+        border-right: 0;
+    }
+}
+@media (max-width: 1200px){
+.prt-mmmenu-override-yes #site-header-menu #site-navigation .mega-menu-wrap .mega-menu.mega-menu-horizontal > li.mega-menu-item > a, #site-header-menu #site-navigation div.nav-menu > ul > li > a {
+    font-size: 16px;
+}
+}
+@media (max-width: 1024px){
+.prt-dark-image-box .elementor-image-box-wrapper {
+    display: block !important;
+    text-align:center !important;
+}
+}
+@media (max-width: 768px){
+.prt-dark-image-box .elementor-image-box-wrapper .elementor-image-box-content {
+    margin-top: 15px;
+}
+
+.preyantechnosys-blogbox-stylethree:hover .preyantechnosys-post-date-wrapper .preyantechnosys-entry-date .entry-month,
+ .preyantechnosys-blogbox-stylethree:hover .prt-box-post-date, .preyantechnosys-blogbox-stylethree:hover .preyantechnosys-box-content h4 a, 
+ .preyantechnosys-blogbox-stylethree:hover .preyantechnosys-blogbox-desc-footer a {
+    color: var(--prt-whitecolor) !important;
+}
+}
+@media (max-width: 480px){
+.prt-footer-marque .prt-marquebox-style1 ul.marquebox-list li{
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 60px;
+}
+.prt-footer-marque .prt-marquebox-style1 ul.marquebox-list li:before {
+    font-size: 30px;
+}
+}

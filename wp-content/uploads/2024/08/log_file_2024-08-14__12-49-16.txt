@@ -1,0 +1,41 @@
+
+---Downloaded files---
+The import files for: Demo1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8000
+Data file = /var/www/html/wp-content/plugins/preyantechnosys-minemo-extras/demo-content/demo.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-img-01" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "pre": Invalid post type copy-to-clipboard
+[WARNING] Failed to import "pre": Invalid post type copy-to-clipboard
+
+
+---ocdi/after_import---
+ Slider processed
